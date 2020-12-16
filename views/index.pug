@@ -1,0 +1,10 @@
+doctype html
+html(lang='en')
+  include common/head.pug
+  +head(title)
+  body
+    div(class="body")
+      h1= title
+      p Welcome to #{title}
+    
+    include common/footer.pug
